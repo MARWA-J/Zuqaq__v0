@@ -96,7 +96,7 @@ const Expanses = () => {
           <Col
             style={{
               maxWidth: "100%",
-              flex: "1 1 80%",
+              flex: "1 1 50%",
               display: "flex",
               flexDirection: "column",
             }}
