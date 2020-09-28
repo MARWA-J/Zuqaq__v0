@@ -135,9 +135,9 @@ const Expanses = () => {
           </Col>
           <Col
             style={{
-              paddingLeft: "10px",
-              paddingRight: "20px",
-              marginTop: "55px",
+              paddingLeft: "15px",
+              paddingRight: "15px",
+              marginTop: "49px",
               flex: "0 1 400px",
             }}
           >
@@ -191,7 +191,7 @@ const Expanses = () => {
             </div>
           </Col>
         </Row>
-        ,{show ? <SidePuPop handleClose={showPopup} /> : null}
+        {show ? <SidePuPop handleClose={showPopup} /> : null}
       </div>
     </div>
   );
