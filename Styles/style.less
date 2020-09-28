@@ -95,8 +95,8 @@ body {
   background-color: rgb(114, 245, 114);
 }
 .slideNav {
-  background-color: #fbfbfb;
-  width: 225px;
+  background-color: #fafbfc;
+  width: 240px;
   height: 100%;
   left: 65px;
   overflow: auto;
@@ -121,7 +121,7 @@ body {
   width: 100%;
   font-size: 2rem;
 
-  font-weight: 500;
+  font-weight: normal !important;
 }
 
 .slide_icon {
@@ -133,20 +133,21 @@ body {
   margin: 5px 10px;
   padding: 5px;
   width: 40px;
-  background-color: #24292d;
+  background-color: #1890ff;
 }
 .slideNav ul {
   list-style: none;
   margin-top: 2rem;
 
   width: 100%;
+  padding: 0;
 }
 
 .slideNav li {
   transition: all 0.15s;
   padding: 10px 30px 10px 10px;
 
-  width: 100%;
+  // width: 100%;
   border-radius: 5px;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -155,11 +156,11 @@ body {
 }
 .slideNav .active,
 .slideNav li:hover {
-  background-color: #f1f2f7 !important;
+  background-color: #ebf0f6 !important;
 }
 .content {
   position: fixed;
-  left: 290px;
+  left: 305px;
   z-index: 3;
   padding: 20px 0;
   right: 0;
